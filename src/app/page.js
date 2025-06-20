@@ -44,7 +44,7 @@ export default function Home() {
         className="min-h-screen flex items-center justify-center px-6 sm:px-12 pt-24 overflow-hidden"
       >
         <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-16">
-          {/* Left Content */}
+          {/* left side */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -102,7 +102,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          {/* Right Content */}
+          {/* right side (picture and blobs) */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* contact */}
 <section id="contact" className="py-24 px-6 sm:px-12 bg-gray-100 dark:bg-gray-900 w-full">
   <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-10 sm:p-16 text-center">
     <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Get in Touch</h2>
@@ -188,17 +188,17 @@ export default function Home() {
 
 
 
-
+{/*experience*/}
       <section id="experience" className="py-24 px-6 sm:px-12 bg-white dark:bg-gray-950 w-full">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Experience</h2>
 
     <div className="space-y-10">
-      {/* Experience 1 */}
+      
 <div className="relative border-l-4 border-emerald-600 pl-6">
   <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
   
-  {/* Title + Logo Flex Row */}
+  
   <div className="flex items-center gap-3">
     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
       Data Engineer – CliftonLarsonAllen (CLA)
@@ -227,11 +227,11 @@ export default function Home() {
 </div>
 
 
-      {/* Experience 2 */}
+      
 <div className="relative border-l-4 border-emerald-600 pl-6">
   <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
   
-  {/* Title + Logo Flex Row */}
+  
   <div className="flex items-center gap-3">
     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
       Mathematics Tutor – Plymouth Academic Support Services
@@ -243,7 +243,7 @@ export default function Home() {
       className="inline-flex transform transition-transform duration-300 hover:scale-110"
     >
       <Image
-        src="/panther.png" // Replace with your Plymouth logo image
+        src="/panther.png" 
         alt="Plymouth Logo"
         width={50}
         height={50}
@@ -264,18 +264,18 @@ export default function Home() {
 </section>
 
 
-      {/* Projects Section */}
+      {/*projects */}
       <section id="projects" className="py-24 px-6 sm:px-12 bg-gray-100 dark:bg-gray-900 w-full">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Projects</h2>
 
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden p-8 md:p-12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left: Text Content */}
+        {/* left side */}
         <div>
           <div className="flex items-center gap-3 mb-4">
             <Image
-              src="/rg_logo.png" // Replace with your logo path
+              src="/rg_logo.png" 
               alt="Project Logo"
               width={100}
               height={100}
@@ -298,11 +298,11 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Right: Project Images */}
+        {/* right side */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="relative w-full h-60 sm:h-64 rounded-xl overflow-hidden shadow-md">
             <Image
-              src="/rgp1.png" // Replace with your screenshot
+              src="/rgp1.png" 
               alt="Project Screenshot 1"
               fill
               className="object-cover"
@@ -310,7 +310,7 @@ export default function Home() {
           </div>
           <div className="relative w-full h-60 sm:h-64 rounded-xl overflow-hidden shadow-md">
             <Image
-              src="/rgp2.png" // Replace with your screenshot
+              src="/rgp2.png"
               alt="Project Screenshot 2"
               fill
               className="object-cover"
@@ -322,7 +322,7 @@ export default function Home() {
   </div>
 </section>
 
-{/* Education Section */}
+{/* education */}
 <section id="education" className="py-24 px-6 sm:px-12 bg-white dark:bg-gray-950 w-full">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Education</h2>
@@ -331,13 +331,13 @@ export default function Home() {
       <div className="relative border-l-4 border-emerald-600 pl-6">
         <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
 
-        {/* Title + Logo Row */}
+        
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
             Plymouth State University
           </h3>
           <Image
-            src="/panther.png" // Replace with your logo file
+            src="/panther.png" 
             alt="Plymouth State Logo"
             width={50}
             height={50}
@@ -356,13 +356,13 @@ export default function Home() {
       <div className="relative border-l-4 border-emerald-600 pl-6">
         <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
 
-        {/* Title + Logo Row */}
+       
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
             University of Calgary
           </h3>
           <Image
-            src="/dino.jpg" // Replace with your logo file
+            src="/dino.jpg" 
             alt="UofC Logo"
             width={50}
             height={50}
@@ -381,10 +381,10 @@ export default function Home() {
   </div>
 </section>
 
-{/* Hockey Section */}
+{/* hokey */}
 <section id="hockey" className="py-24 px-6 sm:px-12 bg-gray-100 dark:bg-gray-900 w-full">
 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-10 sm:p-16">
-  {/* Left: Text Content */}
+  
   <div>
     <div className="flex items-center gap-4 mb-6">
       <Image
@@ -398,7 +398,7 @@ export default function Home() {
     </div>
 
     <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-      I proudly played for the Plymouth State Women’s Ice Hockey Team from 2021–2025, finishing my career as a captain and MASCAC Champion. 
+      I proudly played for the <strong>Plymouth State Women’s Ice Hockey Team</strong> from 2021–2025, finishing my career as a captain and MASCAC Champion. 
       Hockey taught me discipline, teamwork, and leadership — values I carry into everything I work on.
     </p>
 
@@ -429,11 +429,11 @@ export default function Home() {
     </div>
   </div>
 
-  {/* Right: Hockey Photos */}
+  {/* pics */}
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <div className="relative w-full h-80 sm:h-64 rounded-xl overflow-hidden shadow-md">
       <Image
-        src="/champs.jpg" // Replace with your actual image
+        src="/champs.jpg" 
         alt="Robyn playing hockey"
         fill
         className="object-cover"
@@ -441,7 +441,7 @@ export default function Home() {
     </div>
     <div className="relative w-full h-60 sm:h-64 rounded-xl overflow-hidden shadow-md">
       <Image
-        src="/hky.png" // Replace with your actual image
+        src="/hky.png" 
         alt="Celebrating a win"
         fill
         className="object-cover"
@@ -452,24 +452,39 @@ export default function Home() {
 
 </section>
 
-{/* Awards Section */}
+{/* awards */}
 <section id="awards" className="py-24 px-6 sm:px-12 bg-white dark:bg-gray-950 w-full">
   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
     
-    {/* Left: Awards List */}
+    
     <div>
-      <h2 className="text-4xl font-bold text-center lg:text-left mb-12 text-gray-900 dark:text-white">Awards</h2>
+    <div className="flex items-center justify-center lg:justify-start gap-4 mb-2">
+  
+  <Image
+    src="/panther.png"
+    alt="Plymouth State Logo"
+    width={65}
+    height={65}
+    className="object-contain"
+  />
+  <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Awards</h2>
+</div>
 
+      
+      <p className="text-md text-gray-600 dark:text-gray-400 mb-12 text-center lg:text-left italic">
+        Issued by Plymouth State University & Plymouth State Women's Ice Hockey
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Award 1 */}
+        
         <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-emerald-600 mb-2">Top 20 Senior Award</h3>
+          
           <p className="text-gray-700 dark:text-gray-300">
             Recognized as one of the top seniors across the entire university for academic achievement, leadership, and campus involvement.
           </p>
         </div>
 
-        {/* Award 2 */}
+        
         <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-emerald-600 mb-2">Panther Award</h3>
           <p className="text-gray-700 dark:text-gray-300">
@@ -477,7 +492,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Award 3 */}
+        
         <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-emerald-600 mb-2">2× Leadership & Character Award</h3>
           <p className="text-gray-700 dark:text-gray-300">
@@ -485,7 +500,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Award 4 */}
+        
         <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-emerald-600 mb-2">Norma Wilkinson Award</h3>
           <p className="text-gray-700 dark:text-gray-300">
@@ -495,7 +510,7 @@ export default function Home() {
       </div>
     </div>
 
-   {/* Right: Image with bottom fade */}
+   {/* pic */}
 <div className="w-full h-full flex justify-center items-center">
   <div className="relative w-full h-[500px]">
     <Image
@@ -505,7 +520,7 @@ export default function Home() {
       className="object-contain"
     />
 
-    {/* Bottom gradient overlay */}
+   
     <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent dark:from-gray-950 dark:to-transparent z-10" />
   </div>
 </div>
