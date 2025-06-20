@@ -387,6 +387,7 @@ export default function Home() {
   
   <div>
     <div className="flex items-center gap-4 mb-6">
+    <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Hockey</h2>
       <Image
         src="/panther.png"
         alt="Plymouth Panthers Logo"
@@ -394,7 +395,7 @@ export default function Home() {
         height={60}
         className="object-contain"
       />
-      <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Hockey</h2>
+      
     </div>
 
     <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
@@ -459,7 +460,7 @@ export default function Home() {
     
     <div>
     <div className="flex items-center justify-center lg:justify-start gap-4 mb-2">
-  
+    <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Awards</h2>
   <Image
     src="/panther.png"
     alt="Plymouth State Logo"
@@ -467,7 +468,7 @@ export default function Home() {
     height={65}
     className="object-contain"
   />
-  <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Awards</h2>
+  
 </div>
 
       
