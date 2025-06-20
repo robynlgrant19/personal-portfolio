@@ -68,7 +68,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="inline-flex transform transition-transform duration-300 hover:scale-110"
                 >
-                  <Image src="/cla.bmp" alt="CLA logo" width={40} height={40} className="object-contain" />
+                  <Image src="/cla_logo.png" alt="CLA logo" width={40} height={40} className="object-contain" />
                 </a>
                 <a
                   href="https://athletics.plymouth.edu/sports/whockey/roster"
