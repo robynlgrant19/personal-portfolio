@@ -15,7 +15,7 @@ export const metadata = {
   title: "Robyn Grant",
   description: "Robyn's Portfolio",
   icons: {
-    icon: "/justRG.png", // path relative to public/
+    icon: "/justRG.png", 
   },
 };
 

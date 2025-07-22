@@ -508,6 +508,15 @@ export default function Home() {
             For impactful leadership and dedication to advancing an organization's mission and community.
           </p>
         </div>
+
+        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+          <h3 className="text-xl font-semibold text-emerald-600 mb-2">John C. Foley Leadership Award</h3>
+          <p className="text-gray-700 dark:text-gray-300">
+          Senior male and female student-athletes who have exhibited outstanding leadership during their athletic careers.
+          </p>
+        </div>
+
+        
       </div>
     </div>
 
