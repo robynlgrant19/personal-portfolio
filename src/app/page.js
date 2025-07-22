@@ -473,7 +473,7 @@ export default function Home() {
 
       
       <p className="text-md text-gray-600 dark:text-gray-400 mb-12 text-center lg:text-left italic">
-        Issued by Plymouth State University & Plymouth State Women's Ice Hockey
+        Issued by Plymouth State University & Plymouth State Women's Ice Hockey in 2025
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         
