@@ -570,7 +570,7 @@ export default function Home() {
     Plymouth State Athletics - May 2025
   </p>
   <p className="text-gray-700 dark:text-gray-300">
-    Given to one student-athlete per year who exemplifies excellence in leadership, commitment, and team spirit.
+    Given to one student-athlete on each team who exemplifies excellence in leadership, commitment, and team spirit.
   </p>
   <div className="w-full mt-4">
     <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
