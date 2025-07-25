@@ -453,14 +453,10 @@ export default function Home() {
 
 </section>
 
-{/* awards */}
 <section id="awards" className="py-24 px-6 sm:px-12 bg-white dark:bg-gray-950 w-full">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    
-    
-    <div>
-    <div className="flex items-center justify-center lg:justify-start gap-4 mb-2">
-    <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Awards</h2>
+  <div className="max-w-7xl mx-auto">
+  <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
+  <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Awards</h2>
   <Image
     src="/panther.png"
     alt="Plymouth State Logo"
@@ -468,83 +464,160 @@ export default function Home() {
     height={65}
     className="object-contain"
   />
-  
 </div>
 
-      
-      <p className="text-md text-gray-600 dark:text-gray-400 mb-12 text-center lg:text-left italic">
-        Issued by Plymouth State University & Plymouth State Women's Ice Hockey in 2025
-      </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold text-emerald-600 mb-2">Top 20 Senior Award</h3>
-          
-          <p className="text-gray-700 dark:text-gray-300">
-            Recognized as one of the top seniors across the entire university for academic achievement, leadership, and campus involvement.
-          </p>
-        </div>
 
-        
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold text-emerald-600 mb-2">Panther Award</h3>
-          <p className="text-gray-700 dark:text-gray-300">
-            Given to one student-athlete per year who exemplifies excellence in leadership, commitment, and team spirit.
-          </p>
-        </div>
-
-        
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold text-emerald-600 mb-2">2× Leadership & Character Award</h3>
-          <p className="text-gray-700 dark:text-gray-300">
-            Voted by teammates for leadership, accountability, and consistent character on and off the ice.
-          </p>
-        </div>
-
-        
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold text-emerald-600 mb-2">Norma Wilkinson Award</h3>
-          <p className="text-gray-700 dark:text-gray-300">
-            For impactful leadership and dedication to advancing an organization's mission and community.
-          </p>
-        </div>
-
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold text-emerald-600 mb-2">John C. Foley Leadership Award</h3>
-          <p className="text-gray-700 dark:text-gray-300">
-          Senior male and female student-athletes who have exhibited outstanding leadership during their athletic careers.
-          </p>
-        </div>
-
-        
-      </div>
+    {/* Main Grid */}
+<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+  
+  {/* Left Column */}
+  <div className="space-y-8">
+    {/* Top 20 Senior */}
+    <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+  <h3 className="text-xl font-semibold text-emerald-600 mb-2">Top 20 Senior</h3>
+  <p className="text-md text-gray-500 dark:text-gray-400 mb-2 italic">
+    Plymouth State University - May 2025
+  </p>
+  <p className="text-gray-700 dark:text-gray-300">
+    Recognized as one of the top seniors across the entire university for academic achievement, leadership, and campus involvement.
+  </p>
+  <div className="w-full mt-4">
+    <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
+      <img
+        src="/top20.jpg"
+        alt="Top 20 Senior"
+        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+      />
     </div>
-
-   {/* pic */}
-<div className="w-full h-full flex justify-center items-center">
-  <div className="relative w-full h-[500px]">
-    <Image
-      src="/award.png"
-      alt="Robyn Grant"
-      fill
-      className="object-contain"
-    />
-
-   
-    <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent dark:from-gray-950 dark:to-transparent z-10" />
   </div>
 </div>
+
+
+    {/* John C. Foley Leadership Award */}
+    <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+      <h3 className="text-xl font-semibold text-emerald-600 mb-2">John C. Foley Leadership Award</h3>
+      <p className="text-md text-gray-500 dark:text-gray-400 mb-2 italic">
+        Plymouth State Athletics - July 2025
+      </p>
+      <p className="text-gray-700 dark:text-gray-300">
+        Senior male and female student-athletes who have exhibited outstanding leadership during their athletic careers.
+      </p>
+      <div className="w-full mt-4">
+        <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
+          <img
+            src="/johncfoley.png"
+            alt="John C. Foley Leadership Award"
+            className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
+
+          />
+        </div>
+      </div>
+      <a
+        href="https://athletics.plymouth.edu/news/2025/7/15/general-psu-athletics-announces-annual-department-award-winners.aspx"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-4 text-sm font-semibold text-emerald-700 hover:underline"
+      >
+        View Article →
+      </a>
+    </div>
+  </div>
+
+  {/* Middle Column */}
+  <div className="space-y-8">
+    {/* 2× Leadership & Character Award */}
+<div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+  <h3 className="text-xl font-semibold text-emerald-600 mb-2">2× Leadership & Character Award</h3>
+  <p className="text-md text-gray-500 dark:text-gray-400 italic">
+    Plymouth State Women's Ice Hockey
+  </p>
+  <p className="text-md text-gray-500 dark:text-gray-400 mb-2 italic">
+    - May 2024 & May 2025
+  </p>
+  <p className="text-gray-700 dark:text-gray-300">
+    Voted by teammates for leadership, accountability, and consistent character on and off the ice.
+  </p>
+  <div className="w-full mt-4">
+    <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
+      <img
+        src="/lc2024.png"
+        alt="Leadership & Character"
+        className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
+
+      />
+    </div>
+  </div>
+</div>
+
+    {/* Center Image */}
+    <div className="relative w-full h-[500px]">
+      <Image
+        src="/award.png"
+        alt="Robyn Grant"
+        fill
+        className="object-contain"
+      />
+      <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent dark:from-gray-950 dark:to-transparent z-10" />
+    </div>
+  </div>
+
+  {/* Right Column */}
+  <div className="space-y-8">
+    {/* Panther Award */}
+<div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+  <h3 className="text-xl font-semibold text-emerald-600 mb-2">Panther Award</h3>
+  <p className="text-md text-gray-500 dark:text-gray-400 mb-2 italic">
+    Plymouth State Athletics - May 2025
+  </p>
+  <p className="text-gray-700 dark:text-gray-300">
+    Given to one student-athlete per year who exemplifies excellence in leadership, commitment, and team spirit.
+  </p>
+  <div className="w-full mt-4">
+    <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
+      <img
+        src="/pantherAward.jpg"
+        alt="Panther Award"
+        className="w-full h-full object-cover object-right transition-transform duration-300 hover:scale-105"
+      />
+    </div>
+  </div>
+  <a
+    href="https://athletics.plymouth.edu/news/2025/4/28/general-plymouth-state-athletics-announces-panther-award-winners.aspx"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mt-4 text-sm font-semibold text-emerald-700 hover:underline"
+  >
+    View Article →
+  </a>
+</div>
+
+    {/* Norma Wilkinson Award */}
+<div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+  <h3 className="text-xl font-semibold text-emerald-600 mb-2">Norma Wilkinson Award</h3>
+  <p className="text-md text-gray-500 dark:text-gray-400 mb-2 italic">
+    Plymouth State University - May 2025
+  </p>
+  <p className="text-gray-700 dark:text-gray-300">
+    For impactful leadership and dedication to advancing an organization's mission and community.
+  </p>
+  <div className="w-full mt-4">
+    <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
+      <img
+        src="/norma.png"
+        alt="Norma Wilkinson"
+        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+      />
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
 
 
   </div>
 </section>
-
-
-
-
-
-
-
     </main>
   );
 }
