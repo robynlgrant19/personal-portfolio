@@ -500,7 +500,7 @@ export default function Home() {
         Plymouth State Athletics - July 2025
       </p>
       <p className="text-gray-700 dark:text-gray-300">
-        Senior male and female student-athletes who have exhibited outstanding leadership during their athletic careers.
+        One senior male and female student-athlete who have exhibited outstanding leadership during their athletic careers.
       </p>
       <div className="w-full mt-4">
         <div className="overflow-hidden rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 w-full aspect-[4/3] bg-gray-200 dark:bg-gray-700">
