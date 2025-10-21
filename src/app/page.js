@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* hero (about section) */}
+      {/* (about section) */}
       <section
         id="about"
         className="min-h-screen flex items-center justify-center px-6 sm:px-12 pt-24 overflow-hidden"
@@ -55,10 +55,22 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl font-extrabold mb-4">Robyn Grant</h1>
 
             <div className="mb-6">
-              <h2 className="text-2xl sm:text-3xl text-gray-700 dark:text-gray-300">
-                <span className="text-gray-400">Professional</span>{' '}
-                <span className="font-semibold text-gray-800 dark:text-white">Data Engineer</span>
-              </h2>
+              <div className="flex items-center gap-2">
+                  <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 dark:text-white">
+                    Data Engineer
+                  </h2>
+                  <span className="text-sm bg-emerald-100 dark:bg-emerald-800 text-emerald-700 dark:text-emerald-300 px-2 py-0.5 rounded-full">
+                    Full-Time
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-xl sm:text-2xl text-gray-500 dark:text-gray-400">
+                    Software Engineer Intern
+                  </h3>
+                  <span className="text-sm bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 px-2 py-0.5 rounded-full">
+                    Part-Time
+                  </span>
+                </div>
 
               {/* CLA + icons */}
               <div className="flex items-center gap-x-3 mt-2 ml-1 text-md">
@@ -69,6 +81,14 @@ export default function Home() {
                   className="inline-flex transform transition-transform duration-300 hover:scale-110"
                 >
                   <Image src="/cla_logo.png" alt="CLA logo" width={40} height={40} className="object-contain" />
+                </a>
+                <a
+                  href="https://www.nhl.com/utah/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex transform transition-transform duration-300 hover:scale-110"
+                >
+                  <Image src="/mammoth.png" alt="Mammoth Logo" width={50} height={50} className="object-contain" />
                 </a>
                 <a
                   href="https://athletics.plymouth.edu/sports/whockey/roster"
@@ -96,10 +116,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-
-            <p className="text-gray-500 dark:text-gray-400 mb-8 max-w-md">
-              Passionate about engineering, sports analytics, and empowering decisions with data.
-            </p>
           </motion.div>
 
           {/* right side (picture and blobs) */}
@@ -152,11 +168,6 @@ export default function Home() {
 <section id="contact" className="py-24 px-6 sm:px-12 bg-gray-100 dark:bg-gray-900 w-full">
   <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-10 sm:p-16 text-center">
     <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Get in Touch</h2>
-    <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-  I'm always open to new opportunities,<br />
-  collaborations, or just chatting about data,<br />
-  sports, or tech!
-</p>
 
 
     <p className="text-xl font-medium text-emerald-600 mb-8">
@@ -194,6 +205,38 @@ export default function Home() {
     <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Experience</h2>
 
     <div className="space-y-10">
+
+      <div className="relative border-l-4 border-emerald-600 pl-6">
+  <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
+  
+  
+  <div className="flex items-center gap-3">
+    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+      Software Engineer Intern – Utah Mammoth
+    </h3>
+    <a
+      href="https://www.nhl.com/utah/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex transform transition-transform duration-300 hover:scale-110"
+    >
+      <Image
+        src="/mammoth.png" 
+        alt="Mammoth Logo"
+        width={50}
+        height={50}
+        className="object-contain"
+      />
+    </a>
+  </div>
+
+  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">October 2025 – present</p>
+  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+    Collaborate with developers to build and maintain internal software tools supporting team operations and performance analysis.
+  </p>
+</div>
+
+      {/* CLA */}
       
 <div className="relative border-l-4 border-emerald-600 pl-6">
   <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
@@ -226,7 +269,7 @@ export default function Home() {
   </p>
 </div>
 
-
+{/* math tutor*/}
       
 <div className="relative border-l-4 border-emerald-600 pl-6">
   <div className="absolute top-1 left-[-10px] w-5 h-5 bg-emerald-600 rounded-full border-4 border-white dark:border-gray-950"></div>
@@ -254,10 +297,12 @@ export default function Home() {
 
   <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2022 – May 2025</p>
   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-    Tutored university-level math and statistical courses. High levels of communication and scheduling with peers, tutees, and staff. 
-    Quick adaptability to constant changing subjects and level of understanding. Supported students in topics ranging from algebra to calculus.
+    Tutored university students in math and statistics, helping with topics from algebra to calculus. Communicated and scheduled regularly with students and staff.
   </p>
 </div>
+
+
+
 
     </div>
   </div>
